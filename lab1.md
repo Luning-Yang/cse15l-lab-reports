@@ -3,4 +3,5 @@
 ## Installing VScode
 1. Go to [https://code.visualstudio.com](https://code.visualstudio.com)
 2. Click the **Download Mac Universal**
-![Image](lab1_img/vs.jpg)
+<img src="lab1_img/vs.jpg" alt="Image" width="500" height="300">
+
