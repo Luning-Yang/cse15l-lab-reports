@@ -5,3 +5,5 @@
 2. Click the **Download Mac Universal**
 <img src="lab1_img/vs.jpg" alt="Image" width="500" height="300">
 
+## Remotely Connecting
+After we successfully installed the VScode, 
