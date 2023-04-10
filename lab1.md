@@ -6,4 +6,6 @@
 <img src="lab1_img/vs.jpg" alt="Image" width="500" height="300">
 
 ## Remotely Connecting
-After we successfully installed the VScode, press `control` + ` \` `, and you 
+After we successfully installed the VScode, press `control` + \`, and you will see a window asking for your cse15l account username and password. 
+<img src="lab1_img/loginwindow.jpg" alt="Image" width="500" height="300">
+
