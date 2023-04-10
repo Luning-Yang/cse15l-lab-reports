@@ -12,5 +12,5 @@ After we successfully installed the VScode, press `control` + ``` ` ```, and you
 
 After we successfully login, we will see the following page.
 
-<img src="lab1_img/loginpage.png" alt="Image" width="400" height="300">
+<img src="lab1_img/loginpage.png" alt="Image" width="300" height="300">
 
