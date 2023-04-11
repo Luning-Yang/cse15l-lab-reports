@@ -17,4 +17,4 @@ After we successfully login, we will see the following page.
 ## Command Tryout
 The following image contains some command line tryout in the login window.
 
-<img src="lab1_img/command_tryout.png" alt="Image" width="400" height="220">
+<img src="lab1_img/command_tryout.png" alt="Image" width="400" height="150">
