@@ -26,6 +26,8 @@ The following image contains some command line tryout in the login window.
 
 <img src="lab1_img/command_tryout.png" alt="Image" width="400" height="120">
 
+Here is a table which documents the commands I've tried and their respective results.
+
 | Command       | Description | Result        |
 | ------------- |------------- | ------------- |
 |  `ls` | It lists the all files and folders under the current directory | `perl5`  |
