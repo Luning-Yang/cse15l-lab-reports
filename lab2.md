@@ -1,6 +1,11 @@
-# Lab Report 1
+# Lab Report 2 - Servers and Bugs (Week 3)
 
-## Installing VScode
+## Part 1
+Below is an implementation of a web server called *StringServer* that supports the path and behavior as following: it starts from an empty string `message`. Everytime we call `/add-message?s=<string>`. It appends `<string>` to the message, starts a new line, and displays `message`.
+<img src="lab1_img/loginwindow.png" alt="Image" width="1000" height="300">
+
+
+
 1. Go to [https://code.visualstudio.com](https://code.visualstudio.com)
 2. Click the **Download Mac Universal**
 <img src="lab1_img/vs.jpg" alt="Image" width="500" height="300">
