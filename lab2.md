@@ -61,6 +61,8 @@ static void reverseInPlace(int[] arr) {
     }
 }
 ```
+## Part 3
+As a senior Data Science student, I was already familiar with most aspects of Java coding prior to joining this class. However, there was one concept I hadn't encountered before: using Java to interact with a web server. Through Lab 2, I learned not only how to initiate a server with specific settings, but also how to instruct the web server to perform specific actions based on designated URL signatures. This can be achieved using just a few lines of if-else statements.
 
 
 
