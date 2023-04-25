@@ -48,7 +48,7 @@ public void testReverseInPlace() {
 ```
 
 3. The symptom.
-<img src="lab2_img/secondstring.png" alt="Image" width="1000" height="100">
+<img src="lab2_img/symptom.png" alt="Image" width="1000" height="100">
 
 4. The bug & Debug:
 The line `arr[i] = arr[arr.length - i - 1];` only assigns the first half of the array with the values from the second half of the array. When i goes beyond `arr.length/2`, the values in the first half of the array have already been changed. As a result, we fail to swap the values of the second half of the array with the values from the first half of the array. To fix this issue, we need to introduce a temp variable to facilitate the value swap. Another problem in the code is the condition `i < arr.length;`. If we iterate through the entire array, the values will be swapped back when we reach the second half of the array. To resolve this, we need to change the condition to `i < arr.length/2`; so that we only iterate through half the array length. The changed code looks like the following.
