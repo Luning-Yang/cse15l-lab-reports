@@ -2,7 +2,7 @@
 
 ## Part 1
 Below is an implementation of a web server called *StringServer* that supports the path and behavior as following: it starts from an empty string `message`. Everytime we call `/add-message?s=<string>`. It appends `<string>` to the message, starts a new line, and displays `message`.
-<img src="lab2_img/stringserver.png" alt="Image" width="800" height="640">
+<img src="lab2_img/stringserver.png" alt="Image" width="700" height="640">
 
 Then, we go to the directory where *StringServer* is located. We run the following commands:
 1. `javac Server.java StringServer.java` (compile the  *StringServer* file)
