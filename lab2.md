@@ -20,10 +20,12 @@ Next, let's validate that our *StringServer* work properly.
 
 ## Part 2
 Below is a java method called `reverseInPlace` with a certain bug. 
-`static void reverseInPlace(int[] arr) {
+```
+static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
     }
-  }`
+  }
+```
   
   
