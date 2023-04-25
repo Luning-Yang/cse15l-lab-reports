@@ -18,3 +18,12 @@ Next, let's validate that our *StringServer* work properly.
 <img src="lab2_img/secondstring.png" alt="Image" width="1000" height="100">
 
 
+## Part 2
+Below is a java method called `reverseInPlace` with a certain bug. 
+`static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }`
+  
+  
