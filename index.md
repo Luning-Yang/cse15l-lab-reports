@@ -52,31 +52,16 @@ stringsearch-data/technical/government/Media/Farm_workers.txt:tending and harves
 3. `-v` would match all lines except the lines containing a specific word in a file. <br>
     1. The following example searches for and returns all lines which do **not** contain the string *t* in the given file:<br>
     input: `grep -v "t" stringsearch-data/technical/biomed/1468-6708-3-1.txt` <br>
-    output: `elderly [ 9 ] .
+    output: ```elderly [ 9 ] .
         analyses based on years of life (YOL) or on YHL would
-      
-      
-        
-        
-        
           Body mass index
           above.
-        
-        
           ] .
           primary analysis we used observed 7-year YOL and YHL when
           findings.
-        
-        
           peripheral vascular disease, or cerebrovascular disease),
-          depression (CESD score), serum albumin, serum
-        
-        
           Analysis
           for difference among BMI groups using confidence
-        
-      
-      
         smokers. Black women had a higher mean BMI and higher
         likely.
         for age, race, and previous smoking (columns 1 and 3), and
@@ -84,30 +69,16 @@ stringsearch-data/technical/government/Media/Farm_workers.txt:tending and harves
         same YOL.
         groups.
         YOL or YHL.
-      
-      
         Discussion
-        
-        
-        
           YHL.
-        
-        
           person who is depressed because of a poor self-image
           of any differences in EVGFP.
-        
-      
-      
         Conclusion
-      
-      
         None declared
-      
-      
         BMI Body mass index
         Scale
         poor?
-        YOL Years of life`
+        YOL Years of life```
         
     2. The following example searches for and returns all lines which do **not** contain the string *t* in the given file:<br>
     input: `grep -v "i" stringsearch-data/technical/plos/journal.pbio.0020001.txt`
