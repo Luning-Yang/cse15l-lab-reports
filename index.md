@@ -511,17 +511,10 @@ stringsearch-data/technical/biomed/gb-2002-3-10-research0055.txt:          previ
     2.  The following example searches for and returns all lines which contain the word *cannot* in all files under and the given directory and its subdirectories:<br>
         input: `grep -r "fruit" stringsearch-data/technical/government` <br>
         output: ```stringsearch-data/technical/government/About_LSC/Strategic_report.txt:also witnessed the fruition of prior efforts.
-        
 stringsearch-data/technical/government/About_LSC/commission_report.txt:of fruits and vegetables of every kind and other perishable
-
 stringsearch-data/technical/government/About_LSC/commission_report.txt:apples (4,428), vegetable harvesting (4,822), and fruit harvesting
-
 stringsearch-data/technical/government/Env_Prot_Agen/final.txt:recently borne fruit, particularly recent agreements with Japan and
-
 stringsearch-data/technical/government/Alcohol_Problems/DraftRecom-PDF.txt:screening were not as fruitful topics for research as how to screen
-
 stringsearch-data/technical/government/Gen_Account_Office/July11-2001_gg00172r.txt:fruition.
-
 stringsearch-data/technical/government/Media/Unusual_Woodburn.txt:lettuce and chile harvests from the Central Valley to the fruit and
-
 stringsearch-data/technical/government/Media/Farm_workers.txt:tending and harvesting fruits and vegetables.``` 
