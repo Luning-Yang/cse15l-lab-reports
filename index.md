@@ -117,4 +117,16 @@ stringsearch-data/technical/government/Media/Farm_workers.txt:tending and harves
         world.
 
     ```
-        
+4. `-v` would count the number of lines containing a specific word in a file. <br>
+    1. The following example searches for and returns the number of lines contain the string *fr* in the given file:<br>
+        input: `grep -c "fr" stringsearch-data/technical/plos/journal.pbio.0020001.txt`
+        output: `20`
+    2. The following example searches for and returns the number of lines contain the string *ve* in the given file:<br>
+        input: `grep -c "ve" stringsearch-data/technical/biomed/1468-6708-3-1.txt `
+        output: `96`    
+    
+    
+    
+    
+    
+    
