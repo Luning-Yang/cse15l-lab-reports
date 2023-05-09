@@ -82,7 +82,9 @@ stringsearch-data/technical/government/Media/Farm_workers.txt:tending and harves
         
     2. The following example searches for and returns all lines which do **not** contain the string *t* in the given file:<br>
     input: `grep -v "i" stringsearch-data/technical/plos/journal.pbio.0020001.txt` <br>
-    output: ```2002).
+    output: 
+    ```
+            2002).
             Canada?
         programs.
         journals (
@@ -90,5 +92,6 @@ stringsearch-data/technical/government/Media/Farm_workers.txt:tending and harves
         to the top 11–20 journals. 
         In 
         A Long Road Yet to Travel
-        world.```
+        world.
+    ```
         
