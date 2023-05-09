@@ -51,7 +51,7 @@ stringsearch-data/technical/government/Media/Farm_workers.txt:tending and harves
 
 3. `-v` would match all lines except the lines containing a specific word in a file. <br>
     1. The following example searches for and returns all lines which do **not** contain the string *t* in the given file:<br>
-    input: `grep -v "t" stringsearch-data/technical/biomed/1468-6708-3-1.txt`
+    input: `grep -v "t" stringsearch-data/technical/biomed/1468-6708-3-1.txt` <br>
     output: ```elderly [ 9 ] .
         analyses based on years of life (YOL) or on YHL would
       
