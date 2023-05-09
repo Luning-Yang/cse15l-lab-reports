@@ -84,11 +84,18 @@ stringsearch-data/technical/government/Media/Farm_workers.txt:tending and harves
     input: `grep -v "i" stringsearch-data/technical/plos/journal.pbio.0020001.txt` <br>
     output: ```2002).
             Canada?
+            
         programs.
+        
         journals (
+        
         Nature and 
+        
         to the top 11–20 journals.
+        
         In 
+        
         A Long Road Yet to Travel
+        
         world.```
         
