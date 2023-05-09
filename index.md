@@ -37,8 +37,7 @@ stringsearch-data/technical/biomed/1471-2458-3-11.txt:          cuts/meats, raw 
 stringsearch-data/technical/biomed/1471-2458-3-11.txt:          [0.02, 0.48]) and raw or uncooked vegetables (OR [95%
 stringsearch-data/technical/biomed/1471-2458-3-11.txt:          (i.e., meat, fruit, or vegetables), was significantly
 stringsearch-data/technical/biomed/1471-2458-3-11.txt:        to oocysts in raw vegetables and in unpasteurized products
-stringsearch-data/technical/biomed/1471-2458-3-11.txt:        vegetables [ 53 ] . Indeed, it is likely that acquisition
-```
+stringsearch-data/technical/biomed/1471-2458-3-11.txt:        vegetables [ 53 ] . Indeed, it is likely that acquisition```
     2.  The following example searches for and returns all lines which contain the word *cannot* in all files under and the given directory and its subdirectories:<br>
         input: `grep -r "fruit" stringsearch-data/technical/government` <br>
         output: ```stringsearch-data/technical/government/About_LSC/Strategic_report.txt:also witnessed the fruition of prior efforts.
