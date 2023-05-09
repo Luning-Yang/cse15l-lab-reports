@@ -21,7 +21,7 @@ The lab report showcases the implementation of the `grep` command with four diff
 
 2. `-r` will match and return the lines containing a specific word in **all** files under the given directory and its subdirectories. <br>
     Examples: <br>
-    1.  The following example searches for and returns all lines which contain the word *cannot* in all files under and the given directory and its subdirectories:<br>
+    1.  The following example searches for and returns all lines which contain the word *vegetables* in all files under and the given directory and its subdirectories:<br>
         input: `grep -r "vegetables" stringsearch-data/technical/biomed` <br>
         output: ```stringsearch-data/technical/biomed/bcr583.txt:        were grouped according to type (fruits, vegetables, dairy,
 stringsearch-data/technical/biomed/bcr583.txt:        consumption of fruits and vegetables was associated with a
