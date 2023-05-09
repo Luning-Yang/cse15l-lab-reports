@@ -56,8 +56,7 @@ The lab report showcases the implementation of the `grep` command with four diff
             stringsearch-data/technical/government/Gen_Account_Office/July11-2001_gg00172r.txt:fruition.
             stringsearch-data/technical/government/Media/Unusual_Woodburn.txt:lettuce and chile harvests from the Central Valley to the fruit and
             stringsearch-data/technical/government/Media/Farm_workers.txt:tending and harvesting fruits and vegetables.
-       ``` 
-
+       ```
 3. `-v` would match all lines except the lines containing a specific word in a file. <br>
     1. The following example searches for and returns all lines which do **not** contain the string *t* in the given file:<br>
     input: `grep -v "t" stringsearch-data/technical/biomed/1468-6708-3-1.txt` <br>
