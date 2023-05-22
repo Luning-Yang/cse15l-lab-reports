@@ -25,6 +25,7 @@ Here is a screenshot of the steps 1 to 3:
 
   a. we use `vim ListExamples.java` to "vim" into the file first. We can see how the file looks like
   <img src="lab4_img/original.png" alt="Image" width="500" height="500">
+  
   b. type `/test<enter>` to search for the comment right above the part we need to fix.
   
   c. type `j` to go down to the line where our error is located and type `hhhhh` to go left 5 times to arrive at exactly one space before index1. 
