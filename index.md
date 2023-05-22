@@ -124,5 +124,7 @@ The lab report showcases the implementation of the `grep` command with four diff
     2. The following example searches for and returns the number of lines contain the string *ve* in the given file:<br>
         input: `grep -c "ve" stringsearch-data/technical/biomed/1468-6708-3-1.txt ` <br>
         output: `96`    
-        
-Free Software Foundation. (n.d.). Grep. GNU Operating System. Retrieved May 22, 2023, from https://www.gnu.org/software/grep/manual/grep.html
+
+
+## Reference
+1. Free Software Foundation. (n.d.). Grep. GNU Operating System. Retrieved May 22, 2023, from https://www.gnu.org/software/grep/manual/grep.html
