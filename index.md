@@ -34,7 +34,7 @@ Here is a screenshot of the steps 1 to 3:
 ```
 bash test.sh
 ```
-<img src="lab4_img/success.png" alt="Image" width="500" height="80">
+<img src="lab4_img/success.png" alt="Image" width="400" height="80">
 
 9. Commit and push the resulting change to your Github account
 ```
