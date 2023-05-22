@@ -23,12 +23,12 @@ Here is a screenshot of the steps 1 to 3:
 
 7. The following part demonstrates exactly how to edit the code file to fix the failing test using vim. To summarize, we type `/test<enter>jhhhhhi<backspace>2<esc>:wq<enter>` to fix the error and save the file to the correct version. The detals of how each command means are as follow.
   - we use `vim ListExamples.java` to "vim" into the file first. We can see how the file looks like
-  <img src="lab4_img/original.png" alt="Image" width="1000" height="300">
+  <img src="lab4_img/original.png" alt="Image" width="500" height="500">
   - type `/test<enter>` to search for the comment right above the part we need to fix.
   - type `j` to go down to the line where our error is located and type `hhhhh` to go left 5 times to arrive at exactly one space before index1. 
   - type `i` to go to the insert mode and type `<backspace> 2` to delete the original 1 and replace it with 2.
   - type `<esc>` to go back to the normal mode and type `:wq <enter>` to save and quit. Here is how the fixed file looks like 
-  <img src="lab4_img/fix.png" alt="Image" width="1000" height="300">
+  <img src="lab4_img/fix.png" alt="Image" width="500" height="500">
 
 8. We run the tests and demonstrate that they now succeed
 ```
