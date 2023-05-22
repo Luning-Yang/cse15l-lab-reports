@@ -8,9 +8,9 @@ The lab report showcases how to use vim to edit and fix the errors in ListExampl
 ```
 $ ssh cs15lsp23zz@ieng6.ucsd.edu
 ```
-5. After successfully log into the account, clone the repository from https://github.com/ucsd-cse15l-s23/lab7 and cd into the repository.
+5. After successfully log into the account, clone the forked repository from https://github.com/Luning-Yang/lab7.git and cd into the repository.
 ```
-$ git clone https://github.com/ucsd-cse15l-s23/lab7
+$ git clone https://github.com/Luning-Yang/lab7.git
 $ cd lab7
 ```
 6. Run the test.sh file inside the file to demonstrate that ListExamples.java indeed has some errors in it.
