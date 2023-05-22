@@ -8,19 +8,19 @@ The lab report showcases how to use vim to edit and fix the errors in ListExampl
 ```
 $ ssh cs15lsp23zz@ieng6.ucsd.edu
 ```
-2. After successfully log into the account, clone the repository from https://github.com/ucsd-cse15l-s23/lab7 and cd into the repository.
+5. After successfully log into the account, clone the repository from https://github.com/ucsd-cse15l-s23/lab7 and cd into the repository.
 ```
 $ git clone https://github.com/ucsd-cse15l-s23/lab7
 $ cd lab7
 ```
-3. Run the test.sh file inside the file to demonstrate that ListExamples.java indeed has some errors in it.
+6. Run the test.sh file inside the file to demonstrate that ListExamples.java indeed has some errors in it.
 ```
 $ bash test.sh
 ```
 Here is a screenshot of the steps 1 to 3:
 IMAGE HERE
 
-4. The following part demonstrates exactly how to edit the code file to fix the failing test using vim. To summarize, we type `/test<enter>jhhhhhi<backspace>2<esc>:wq<enter>` to fix the error and save the file to the correct version. The detals of how each command means are as follow.
+7. The following part demonstrates exactly how to edit the code file to fix the failing test using vim. To summarize, we type `/test<enter>jhhhhhi<backspace>2<esc>:wq<enter>` to fix the error and save the file to the correct version. The detals of how each command means are as follow.
   - we use `vim ListExamples.java` to "vim" into the file first. We can see how the file looks like
   IMAGE HERE  
   - type `/test<enter>` to search for the comment right above the part we need to fix.
@@ -28,7 +28,7 @@ IMAGE HERE
   - type `i` to go to the insert mode and type `<backspace> 2` to delete the original 1 and replace it with 2.
   - type `<esc>` to go back to the normal mode and type `:wq <enter>` to save and quit.
 
-5. We run the tests and demonstrate that they now succeed
+8. We run the tests and demonstrate that they now succeed
 ```
 bash test.sh
 ```
