@@ -18,5 +18,5 @@ Here is a screenshot of the steps 1 to 3:
 IMAGE HERE
 
 4. The following part demonstrates exactly how to edit the code file to fix the failing test using vim
-  1. we use `vim ListExamples.java` to "vim" into the file first
-  2. 
+  a. we use `vim ListExamples.java` to "vim" into the file first
+  b. 
