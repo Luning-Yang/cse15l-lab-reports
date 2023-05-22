@@ -26,7 +26,7 @@ IMAGE HERE
   - type `/test<enter>` to search for the comment right above the part we need to fix.
   - type `j` to go down to the line where our error is located and type `hhhhh` to go left 5 times to arrive at exactly one space before index1. 
   - type `i` to go to the insert mode and type `<backspace> 2` to delete the original 1 and replace it with 2.
-  - type `<esc>` to go back to the normal mode and type `:wq <enter>` to save and quit.
+  - type `<esc>` to go back to the normal mode and type `:wq <enter>` to save and quit. Here is how the fixed file looks like IMAGE HERE
 
 8. We run the tests and demonstrate that they now succeed
 ```
