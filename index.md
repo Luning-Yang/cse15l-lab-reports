@@ -22,6 +22,7 @@ Here is a screenshot of the steps 1 to 3:
 <img src="lab4_img/setup.png" alt="Image" width="500" height="400">
 
 7. The following part demonstrates exactly how to edit the code file to fix the failing test using vim. To summarize, we type `/test<enter>jhhhhhi<backspace>2<esc>:wq<enter>` to fix the error and save the file to the correct version. The detals of how each command means are as follow.
+
   a. we use `vim ListExamples.java` to "vim" into the file first. We can see how the file looks like
   <img src="lab4_img/original.png" alt="Image" width="500" height="500">
   b. type `/test<enter>` to search for the comment right above the part we need to fix.
