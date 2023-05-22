@@ -34,8 +34,13 @@ bash test.sh
 ```
 IMAGE HERE
 
-
-
+9. Commit and push the resulting change to your Github account
+```
+git add .
+git commit -m "error fix"
+git push
+```
+IMAGE HERE
 
 
 
