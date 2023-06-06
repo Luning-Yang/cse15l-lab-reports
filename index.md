@@ -8,6 +8,7 @@ This section emulates an EdStem post where a student is seeking help with debugg
 
 > Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.
 Seeing: 
+
 ```
 [cs15lsp23lh@ieng6-201]:grader-skill-demo2:102$ bash grade.sh https://github.com/ucsd-cse15l-s23/list-methods-nested
 Cloning into 'student-submission'...
@@ -28,6 +29,7 @@ Score: 0/4
 > Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.
 > 1. failure-inducing input: `FILE_PATH =$(find student-submission -name "ListExamples.java")`.
 > 2. Command before the failure line in the bash script:
+
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 rm -rf student-submission
@@ -36,10 +38,12 @@ mkdir grading-area
 git clone $1 student-submission
 echo 'Finished cloning'
 ```
+
 2. Next is the response from a TA:
 > The line you got an error in is line 10, which reads "FILE_PATH: command not found". This is because Bash interprets "FILE_PATH" as a separate command instead of a variable. To fix it, remove the space between "FILE_PATH" and "=", as this is different from how common programming languages function. It's important to note this.
 
 3. The terminal output after the sutdent fixed the bug:
+
 ```
 [cs15lsp23lh@ieng6-201]:grader-skill-demo2:100$ bash grade.sh https://github.com/ucsd-cse15l-s23/list-methods-nested
 Cloning into 'student-submission'...
@@ -69,6 +73,7 @@ directory: a lib for junit test.
 GradeServer.java and Server.java are exactly the same as what's in the repo. 
 
 The content of TestListExamples.java:
+
 ```
 import static org.junit.Assert.*;
 import org.junit.*;
@@ -118,7 +123,9 @@ public class TestListExamples {
   }
 }
 ```
+
 The content of grade.sh:
+
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
@@ -194,15 +201,19 @@ echo "--------------"
 echo ""
 
 ```
+
 - The full command line (or lines) you ran to trigger the bug:
+
 ```
 bash grade.sh https://github.com/ucsd-cse15l-s23/list-methods-nested
 ```
+
 - A description of what to edit to fix the bug:
 Edit line 10 to remove the between the variable "FILE_PATH" and "=".
 
 ## Part 2: Reflection
 Before attending the lab of week 6, I had no clue how autograder works when the student's required file for grading is not present in the bash command. But now I understand that we can also implement a similar if-else statement in bash, just like any other programming language, to handle such a situation. For instance, the code chunk below will look for the ListExamples.java file - the one required for grading - in the student-submission folder. If it is present, the grader will resume its process, otherwise it will terminate and give a score of zero. This way, the extra computational cost can be avoided if the desired file is absent. With this knowledge I have successfully incorporated the if-then-else statement into my own autograder to be able to handle the case when the target file is missing.
+
 ```
 if [[ -f student-submission/ListExamples.java ]]
 then
@@ -213,3 +224,4 @@ else
   exit 1
 fi
 ```
+
