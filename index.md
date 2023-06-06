@@ -22,7 +22,7 @@ ListExamples.java not found
 Score: 0/4
 ```
 
-Expected to see:
+> Expected to see:
 ```
 [cs15lsp23lh@ieng6-201]:grader-skill-demo2:100$ bash grade.sh https://github.com/ucsd-cse15l-s23/list-methods-nested
 Cloning into 'student-submission'...
@@ -40,7 +40,7 @@ ListExamples.java found
 ```
 
 
-Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.
+> Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.
 1. failure-inducing input: `FILE_PATH =$(find student-submission -name "ListExamples.java")`.
 2. Command before the failure line in the bash script:
 ```
