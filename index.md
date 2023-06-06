@@ -201,7 +201,7 @@ bash grade.sh https://github.com/ucsd-cse15l-s23/list-methods-nested
 - A description of what to edit to fix the bug:
 Edit line 10 to remove the between the variable "FILE_PATH" and "=".
 
-## Part 2: Debugging Scenario
+## Part 2: Reflection
 Before attending the lab of week 6, I had no clue how autograder works when the student's required file for grading is not present in the bash command. But now I understand that we can also implement a similar if-else statement in bash, just like any other programming language, to handle such a situation. For instance, the code chunk below will look for the ListExamples.java file - the one required for grading - in the student-submission folder. If it is present, the grader will resume its process, otherwise it will terminate and give a score of zero. This way, the extra computational cost can be avoided if the desired file is absent. With this knowledge I have successfully incorporated the if-then-else statement into my own autograder to be able to handle the case when the target file is missing.
 ```
 if [[ -f student-submission/ListExamples.java ]]
