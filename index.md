@@ -22,22 +22,7 @@ ListExamples.java not found
 Score: 0/4
 ```
 
-> Expected to see:
-```
-[cs15lsp23lh@ieng6-201]:grader-skill-demo2:100$ bash grade.sh https://github.com/ucsd-cse15l-s23/list-methods-nested
-Cloning into 'student-submission'...
-remote: Enumerating objects: 4, done.
-remote: Counting objects: 100% (4/4), done.
-remote: Compressing objects: 100% (2/2), done.
-remote: Total 4 (delta 0), reused 4 (delta 0), pack-reused 0
-Receiving objects: 100% (4/4), done.
-Finished cloning
-ListExamples.java found
-
---------------
-| Score: 4/4 |
---------------
-```
+> Expected to see: it searches for ListExamples.java anywhere in the student submission, find the ListExamples.java, grade the student's submission, and reports that all tests pass.
 
 
 > Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.
@@ -54,4 +39,19 @@ echo 'Finished cloning'
 2. Next is the response from a TA:
 > The line you got an error in is line 10, which reads "FILE_PATH: command not found". This is because Bash interprets "FILE_PATH" as a separate command instead of a variable. To fix it, remove the space between "FILE_PATH" and "=", as this is different from how common programming languages function. It's important to note this.
 
+3. The terminal output after the sutdent fixed the bug:
+```
+[cs15lsp23lh@ieng6-201]:grader-skill-demo2:100$ bash grade.sh https://github.com/ucsd-cse15l-s23/list-methods-nested
+Cloning into 'student-submission'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 4 (delta 0), reused 4 (delta 0), pack-reused 0
+Receiving objects: 100% (4/4), done.
+Finished cloning
+ListExamples.java found
 
+--------------
+| Score: 4/4 |
+--------------
+```
