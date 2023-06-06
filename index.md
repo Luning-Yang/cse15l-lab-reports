@@ -1,5 +1,5 @@
 # Lab Report 5 - Debugging Scenario & Reflection (Week 10)
-## Debugging Scenario
+## Part 1: Debugging Scenario
 This section emulates an EdStem post where a student is seeking help with debugging.
 1. Below is the content of the student's post:
 
@@ -57,3 +57,15 @@ ListExamples.java found
 ```
 
 The bug occurred because the student added an extra space between the variable "FILE_PATH" and "=". This is an error, as when we define a variable in bash script it should not have any extra spaces between the variable and "=". Otherwise, bash will interpret the variable as a separate command and thus produce the error "ListExamples.java not found".
+
+4. The setup info:
+The file & directory are actually the modification of the repo of skill demo 2: https://github.com/ucsd-cse15l-s23/grader-skill-demo2.
+a. The file & directory structure needed: 
+files: GradeServer.java, Server.java, TestListExamples.java, grade.sh. 
+directory: a lib for junit test.
+
+b. The content of each file before fixing the bug: 
+GradeServer.java and Server.java are exactly the same as what's in the repo. 
+The
+
+
