@@ -60,11 +60,12 @@ The bug occurred because the student added an extra space between the variable "
 
 4. The setup info:
 The file & directory are actually the modification of the repo of skill demo 2: https://github.com/ucsd-cse15l-s23/grader-skill-demo2.
-a. The file & directory structure needed: 
+
+- The file & directory structure needed: 
 files: GradeServer.java, Server.java, TestListExamples.java, grade.sh. 
 directory: a lib for junit test.
 
-b. The content of each file before fixing the bug: 
+- The content of each file before fixing the bug: 
 GradeServer.java and Server.java are exactly the same as what's in the repo. 
 The
 
