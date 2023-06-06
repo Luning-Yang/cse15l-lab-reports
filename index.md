@@ -3,8 +3,8 @@
 This section emulates an EdStem post where a student is seeking help with debugging.
 1. Below is the content of the student's post:
 
-What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?
-I'm using my terminal connected to my ieng6 account.
+> What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?
+> I'm using my terminal connected to my ieng6 account.
 
 > Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.
 Seeing: 
@@ -41,8 +41,8 @@ ListExamples.java found
 
 
 > Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.
-1. failure-inducing input: `FILE_PATH =$(find student-submission -name "ListExamples.java")`.
-2. Command before the failure line in the bash script:
+> 1. failure-inducing input: `FILE_PATH =$(find student-submission -name "ListExamples.java")`.
+> 2. Command before the failure line in the bash script:
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 rm -rf student-submission
