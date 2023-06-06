@@ -52,6 +52,6 @@ git clone $1 student-submission
 echo 'Finished cloning'
 ```
 2. Next is the response from a TA:
-
+> The line you got an error in is line 10, which reads "FILE_PATH: command not found". This is because Bash interprets "FILE_PATH" as a separate command instead of a variable. To fix it, remove the space between "FILE_PATH" and "=", as this is different from how common programming languages function. It's important to note this.
 
 
