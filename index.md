@@ -55,3 +55,4 @@ ListExamples.java found
 | Score: 4/4 |
 --------------
 ```
+The bug is because the student added an extra space between the variable "FILE_PATH" and "=". When we define a variable in bash script, adding an extra space between the variable and "=" will make bash interpret the variable as a seperate command. That's why it says "ListExamples.java not found".
