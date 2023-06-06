@@ -130,7 +130,8 @@ mkdir grading-area
 git clone $1 student-submission
 echo 'Finished cloning'
 
-if [[ -f student-submission/ListExamples.java ]]
+FILE_PATH =$(find student-submission -name "ListExamples.java
+if [[ -n FILE_PATH ]]
 then
   echo 'ListExamples.java found'
 else
@@ -139,7 +140,7 @@ else
   exit 1
 fi
 
-cp student-submission/ListExamples.java ./grading-area
+cp FILE_PATH ./grading-area
 
 cp TestListExamples.java grading-area/
 cp -r lib grading-area/
@@ -193,3 +194,9 @@ echo "--------------"
 echo ""
 
 ```
+- The full command line (or lines) you ran to trigger the bug:
+```
+bash grade.sh https://github.com/ucsd-cse15l-s23/list-methods-nested
+```
+- A description of what to edit to fix the bug:
+Edit line 10 to remove the between the variable "FILE_PATH" and "=".
